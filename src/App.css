@@ -1,0 +1,91 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#mainContainer{
+  min-height: 50vh;
+  min-width: 20vw;
+  background-color: #00C0F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius : 15px;
+  padding : 3px 20px;
+}
+#container{
+  margin-top: 12px;
+  display : flex;
+  height:18px;
+}
+#container input{
+  outline: none;
+  padding: 2px;
+  margin-left : 5px;
+  height:100%;
+}
+.io{
+  font-size : 30px;
+  height : 125%;
+  padding: 1px;
+  margin-left : 1px;
+  border-radius : 2px;
+   color : #201d1d;
+  background-color : white;
+  margin-right : 5px;
+  
+}
+.io:hover{
+  color : white;
+  background-color : #494c92;
+}
+#dataContainer{
+  padding-top : 10px;
+  line-height : 1.8;
+}
+#first{
+  line-height : 0;
+  padding-bottom : 5px;
+  text-align : center
+}
+#second{
+  font-size : 30px;
+  font-weight : bold;
+  line-height : 0;
+  padding-bottom : 30px
+}
+.third{
+  font-size : 50px;
+  font-weight : bolder;
+  line-height : 0;
+  padding-bottom : 12px;
+}
+.icon{
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+.c1{
+  margin-left : -15px;
+}
+.c2{
+  margin-left : 3px;
+}
+#wind{
+  padding-left : 2px
+}
+.temp{
+  padding-left : 4px
+}
+#text{
+  font-size : 20px;
+  font-weight : bold;
+  text-align : center;
+}
